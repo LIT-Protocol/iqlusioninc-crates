@@ -53,7 +53,7 @@ extern crate std;
 pub mod mnemonic;
 
 mod key_material;
-mod path;
+pub mod path;
 
 #[cfg(feature = "alloc")]
 mod pathbuf;
